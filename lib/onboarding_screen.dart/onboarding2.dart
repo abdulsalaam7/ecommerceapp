@@ -1,3 +1,5 @@
+// ignore_for_file: use_build_context_synchronously
+
 import 'package:ecommerce/HomePage.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter/material.dart';
@@ -129,7 +131,7 @@ class OnboardingScreen2 extends StatelessWidget {
                       width: 250,
                       height: 58,
                       decoration: BoxDecoration(
-                        color: Color.fromRGBO(250, 250, 252, 1),
+                        color: const Color.fromRGBO(250, 250, 252, 1),
                         borderRadius: BorderRadius.circular(10),
                       ),
                       child: InkWell(
