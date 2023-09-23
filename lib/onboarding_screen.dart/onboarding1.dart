@@ -10,8 +10,7 @@ class OnboardingScreen1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       child: Container(
-        color:
-            const Color(0xff2A4Ba0), // Set your desired background color here
+        color: const Color(0xff2A4Ba0),
         child: SafeArea(
           child: Padding(
             padding: const EdgeInsets.symmetric(vertical: 70, horizontal: 50),

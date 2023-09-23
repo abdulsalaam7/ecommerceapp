@@ -270,7 +270,7 @@ class _HomeState extends State<Home> {
                                   child: Container(
                                     margin: EdgeInsets.all(10),
                                     child: Image.asset(
-                                      "images/${i + 1}.jpeg", // Changed the image path
+                                      "images/${i + 1}.jpeg",
                                       height: 120,
                                     ),
                                   ),

@@ -1,10 +1,8 @@
-// ignore_for_file: use_key_in_widget_constructors
-
 import 'package:ecommerce/HomePage.dart';
 import 'package:ecommerce/onboarding_screen.dart/onboarding1.dart';
 import 'package:ecommerce/widget_home.dart';
 import 'package:flutter/material.dart';
-// ignore: depend_on_referenced_packages
+
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
@@ -20,7 +18,6 @@ class MyApp extends StatelessWidget {
 
   const MyApp(this.isFirstLaunch);
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
