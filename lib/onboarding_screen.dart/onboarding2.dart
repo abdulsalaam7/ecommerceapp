@@ -141,8 +141,7 @@ class OnboardingScreen2 extends StatelessWidget {
                           prefs.setBool('first_launch', false);
 
                           Navigator.of(context).pushReplacement(
-                            MaterialPageRoute(
-                                builder: (context) => const HomePage()),
+                            MaterialPageRoute(builder: (context) => HomePage()),
                           );
                         },
                         child: const Row(

@@ -2,6 +2,7 @@
 
 import 'package:ecommerce/HomePage.dart';
 import 'package:ecommerce/onboarding_screen.dart/onboarding1.dart';
+import 'package:ecommerce/widget_home.dart';
 import 'package:flutter/material.dart';
 // ignore: depend_on_referenced_packages
 import 'package:shared_preferences/shared_preferences.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: isFirstLaunch ? const OnboardingScreen1() : const HomePage(),
+      home: isFirstLaunch ? const OnboardingScreen1() : HomePage(),
     );
   }
 }
